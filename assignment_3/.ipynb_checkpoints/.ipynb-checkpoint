@@ -1,0 +1,359 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<img src=\"images/logo.png\" style=\"width: 100px;\"/>\n",
+    "<h1><center>Assignment 3</center></h1>\n",
+    "<h3><center>Perceptrons and Multilayer-Preceptrons</center></h3>\n",
+    "\n",
+    "<center>Due: 01.12.2020 at 23:59</center>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### How to upload:\n",
+    "\n",
+    "Upload your solution via the VC course. Please upload **one Zip archive** per group. The Zip must contain:\n",
+    "* Your solution **notebook** (a **.ipynb** file)\n",
+    "* An **images folder** with all your images (keep the size of the images relatively small)\n",
+    "* A **data folder** with the datasets (you probably don't have to change anything here)\n",
+    "\n",
+    "Your Zip should be named after the following scheme:\n",
+    "\n",
+    "* assignment\\_\"**assignment number**\"\\_solution.zip"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 1) Perceptron Training Rule\n",
+    "The following training data is provided:\n",
+    "\n",
+    "<style type=\"text/css\">\n",
+    ".tg  {border-collapse:collapse;border-spacing:0;}\n",
+    ".tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n",
+    "  overflow:hidden;padding:10px 5px;word-break:normal;}\n",
+    ".tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n",
+    "  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n",
+    ".tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n",
+    ".tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}\n",
+    ".tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n",
+    ".tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}\n",
+    "</style>\n",
+    "<table class=\"tg\">\n",
+    "<thead>\n",
+    "  <tr>\n",
+    "    <th class=\"tg-0pky\">#</th>\n",
+    "    <th class=\"tg-73oq\">x1</th>\n",
+    "    <th class=\"tg-73oq\">x2</th>\n",
+    "    <th class=\"tg-0pky\">t</th>\n",
+    "  </tr>\n",
+    "</thead>\n",
+    "<tbody>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">1</td>\n",
+    "    <td class=\"tg-wp8o\">1</td>\n",
+    "    <td class=\"tg-wp8o\">-1</td>\n",
+    "    <td class=\"tg-c3ow\">1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">2</td>\n",
+    "    <td class=\"tg-wp8o\">2</td>\n",
+    "    <td class=\"tg-wp8o\">1</td>\n",
+    "    <td class=\"tg-c3ow\">-1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">3</td>\n",
+    "    <td class=\"tg-wp8o\">1</td>\n",
+    "    <td class=\"tg-wp8o\">0.5</td>\n",
+    "    <td class=\"tg-c3ow\">-1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">4</td>\n",
+    "    <td class=\"tg-wp8o\">-1</td>\n",
+    "    <td class=\"tg-wp8o\">1</td>\n",
+    "    <td class=\"tg-c3ow\">1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">5</td>\n",
+    "    <td class=\"tg-wp8o\">-1</td>\n",
+    "    <td class=\"tg-wp8o\">-1</td>\n",
+    "    <td class=\"tg-c3ow\">-1</td>\n",
+    "  </tr>\n",
+    "</tbody>\n",
+    "</table>\n",
+    "\n",
+    "Plot the data into a two dimensional coordinate system and explain if a perceptron can learn to classify this training data."
+   ]
+  },
+  {
+   "attachments": {},
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Place for your solution:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Now use the perceptron training rule algorithm to learn a threasholded perceptron from the above stated training examples. Use a **learning rate** of **0.5** and **initialize the weights** with **0**. Note the weights vector after every learning step. Train the perceptron once with every training example.  "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Place for your solution:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 2) Implementing a Perceptron\n",
+    "\n",
+    "Let us now implement an own perceptron in Python. The class below already contains a constructor that sets the number of input neurons (__input_dimension__) given by the user and initializes the weights to a vector consisting of all 1's. This weight vector also has to incorporate $w_0$, so we make it larger than the inputs by 1 entry.\n",
+    "\n",
+    "Your job is to extend the code below with a class function __output__ that waits for a numpy array holding the input values. This function should calculate the forward pass of the perceptron and output the corresponding value (-1 or 1)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "\n",
+    "class Perceptron:\n",
+    "    def __init__(self, input_dimension):\n",
+    "        self.input_dimension = input_dimension\n",
+    "        self.weights = np.ones(input_dimension + 1) # can be adapted to any weight initialization\n",
+    "    \n",
+    "    def output(self, input_vector):"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 3) Implement the Perceptron Training Rule"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Now that you performed the Perceptron Training Rule manually, and implemented a Perceptron, the next step is to implement the perceptron training rule in Python 3 (see lecture 4, slide 9). The function for this training rule could, for example, take a perceptron, a training instance, and the learning rate as parameters. Calling such function would complete one training *step* with the single instance.\n",
+    "\n",
+    "As previously specified, we will not use random initial values for the weights, but use a value of 1 as the initial value for all weights."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 3 b) Using the Perceptron Training Rule"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Use your implementation of the perceptron training rule to train a perceptron using the following training set *D*:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "<style type=\"text/css\">\n",
+    ".tg  {border-collapse:collapse;border-spacing:0;}\n",
+    ".tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n",
+    "  overflow:hidden;padding:10px 5px;word-break:normal;}\n",
+    ".tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;\n",
+    "  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}\n",
+    ".tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}\n",
+    ".tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:top}\n",
+    ".tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}\n",
+    ".tg .tg-73oq{border-color:#000000;text-align:left;vertical-align:top}\n",
+    "</style>\n",
+    "<table class=\"tg\">\n",
+    "<thead>\n",
+    "  <tr>\n",
+    "    <th class=\"tg-0pky\">#</th>\n",
+    "    <th class=\"tg-73oq\">x1</th>\n",
+    "    <th class=\"tg-73oq\">x2</th>\n",
+    "    <th class=\"tg-0pky\">t</th>\n",
+    "  </tr>\n",
+    "</thead>\n",
+    "<tbody>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">1</td>\n",
+    "    <td class=\"tg-wp8o\">1</td>\n",
+    "    <td class=\"tg-wp8o\">2</td>\n",
+    "    <td class=\"tg-c3ow\">1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">2</td>\n",
+    "    <td class=\"tg-wp8o\">4</td>\n",
+    "    <td class=\"tg-wp8o\">-1</td>\n",
+    "    <td class=\"tg-c3ow\">-1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">3</td>\n",
+    "    <td class=\"tg-wp8o\">-3</td>\n",
+    "    <td class=\"tg-wp8o\">-2</td>\n",
+    "    <td class=\"tg-c3ow\">1</td>\n",
+    "  </tr>\n",
+    "  <tr>\n",
+    "    <td class=\"tg-c3ow\">4</td>\n",
+    "    <td class=\"tg-wp8o\">-1</td>\n",
+    "    <td class=\"tg-wp8o\">1</td>\n",
+    "    <td class=\"tg-c3ow\">-1</td>\n",
+    "  </tr>\n",
+    "</tbody>\n",
+    "</table>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Note: Neither the running number (#) or target concept *t* are attributes.\n",
+    "\n",
+    "Choose the learning rate $\\eta = 0.5$. Train the perceptron with the given training examples. Consider the training set 5 times (so, 5 epochs with 4 steps each). Afterwards, let your perceptron classify each training example again and print out whether the classification was correct or not."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 4) Multilayer Perceptron:\n",
+    "Given the following multilayer perceptron, first calculate the forward pass through the network. <br>\n",
+    "Then apply the backpropagation algorithm to adjust the weights.\n",
+    "\n",
+    "The neuron's activation function is a **sigmoid activation function**. The learning rate is **0.5**.\n",
+    "\n",
+    "**Round every calculation directly to 3 places after the comma. (3 decimal places).**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "![title](images/Task_5_description.png)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Space for your solution:\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "---\n",
+    "# Tips and tricks"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "\n",
+    "### 1) Embedding images\n",
+    "You can embed images in a jupyter notebook on two ways: <br/>\n",
+    "First, you can use the IPython kernel to draw an image everytime the code cell is run like shown below."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from IPython.display import Image\n",
+    "Image(\"images/logo.png\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Second, you can embed images directly in a Markdown cell as shown below. You can either use markdown syntax or write plain HTML code. Sometimes HTML code is more practical, as you have much finer control over the HTML elements."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1. Markdown syntax:\n",
+    "![title](images/logo.png)\n",
+    "2. HTML syntax\n",
+    "<img src=\"images/logo.png\" style=\"width: 70px;\"/>"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "If you are having trouble with **markdown images not refreshing after you change them on disk** you need to refresh your browser. The browser chaches images and the old image is still in the cache."
+   ]
+  }
+ ],
+ "metadata": {
+  "jupytext": {
+   "cell_metadata_filter": "-all",
+   "encoding": "# -*- coding: utf-8 -*-",
+   "notebook_metadata_filter": "-all",
+   "text_representation": {
+    "extension": ".py",
+    "format_name": "light"
+   }
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.3"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
