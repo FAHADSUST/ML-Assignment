@@ -1,0 +1,304 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,target
+63,male,severe,145,233,fbs > 120mg/dl,0,150,no angina,2.3,0,0,1
+37,male,major,130,250,fbs < 120mg/dl,1,187,no angina,3.5,0,0,1
+41,female,minor,130,204,fbs < 120mg/dl,0,172,no angina,1.4,2,0,1
+56,male,minor,120,236,fbs < 120mg/dl,1,178,no angina,0.8,2,0,1
+57,female,none,120,354,fbs < 120mg/dl,1,163,angina,0.6,2,0,1
+57,male,none,140,192,fbs < 120mg/dl,1,148,no angina,0.4,1,0,1
+56,female,minor,140,294,fbs < 120mg/dl,0,153,no angina,1.3,1,0,1
+44,male,minor,120,263,fbs < 120mg/dl,1,173,no angina,0.0,2,0,1
+52,male,major,172,199,fbs > 120mg/dl,1,162,no angina,0.5,2,0,1
+57,male,major,150,168,fbs < 120mg/dl,1,174,no angina,1.6,2,0,1
+54,male,none,140,239,fbs < 120mg/dl,1,160,no angina,1.2,2,0,1
+48,female,major,130,275,fbs < 120mg/dl,1,139,no angina,0.2,2,0,1
+49,male,minor,130,266,fbs < 120mg/dl,1,171,no angina,0.6,2,0,1
+64,male,severe,110,211,fbs < 120mg/dl,0,144,angina,1.8,1,0,1
+58,female,severe,150,283,fbs > 120mg/dl,0,162,no angina,1.0,2,0,1
+50,female,major,120,219,fbs < 120mg/dl,1,158,no angina,1.6,1,0,1
+58,female,major,120,340,fbs < 120mg/dl,1,172,no angina,0.0,2,0,1
+66,female,severe,150,226,fbs < 120mg/dl,1,114,no angina,2.6,0,0,1
+43,male,none,150,247,fbs < 120mg/dl,1,171,no angina,1.5,2,0,1
+69,female,severe,140,239,fbs < 120mg/dl,1,151,no angina,1.8,2,2,1
+59,male,none,135,234,fbs < 120mg/dl,1,161,no angina,0.5,1,0,1
+44,male,major,130,233,fbs < 120mg/dl,1,179,angina,0.4,2,0,1
+42,male,none,140,226,fbs < 120mg/dl,1,178,no angina,0.0,2,0,1
+61,male,major,150,243,fbs > 120mg/dl,1,137,angina,1.0,1,0,1
+40,male,severe,140,199,fbs < 120mg/dl,1,178,angina,1.4,2,0,1
+71,female,minor,160,302,fbs < 120mg/dl,1,162,no angina,0.4,2,2,1
+59,male,major,150,212,fbs > 120mg/dl,1,157,no angina,1.6,2,0,1
+51,male,major,110,175,fbs < 120mg/dl,1,123,no angina,0.6,2,0,1
+65,female,major,140,417,fbs > 120mg/dl,0,157,no angina,0.8,2,1,1
+53,male,major,130,197,fbs > 120mg/dl,0,152,no angina,1.2,0,0,1
+41,female,minor,105,198,fbs < 120mg/dl,1,168,no angina,0.0,2,1,1
+65,male,none,120,177,fbs < 120mg/dl,1,140,no angina,0.4,2,0,1
+44,male,minor,130,219,fbs < 120mg/dl,0,188,no angina,0.0,2,0,1
+54,male,major,125,273,fbs < 120mg/dl,0,152,no angina,0.5,0,1,1
+51,male,severe,125,213,fbs < 120mg/dl,0,125,angina,1.4,2,1,1
+46,female,major,142,177,fbs < 120mg/dl,0,160,angina,1.4,0,0,1
+54,female,major,135,304,fbs > 120mg/dl,1,170,no angina,0.0,2,0,1
+54,male,major,150,232,fbs < 120mg/dl,0,165,no angina,1.6,2,0,1
+65,female,major,155,269,fbs < 120mg/dl,1,148,no angina,0.8,2,0,1
+65,female,major,160,360,fbs < 120mg/dl,0,151,no angina,0.8,2,0,1
+51,female,major,140,308,fbs < 120mg/dl,0,142,no angina,1.5,2,1,1
+48,male,minor,130,245,fbs < 120mg/dl,0,180,no angina,0.2,1,0,1
+45,male,none,104,208,fbs < 120mg/dl,0,148,angina,3.0,1,0,1
+53,female,none,130,264,fbs < 120mg/dl,0,143,no angina,0.4,1,0,1
+39,male,major,140,321,fbs < 120mg/dl,0,182,no angina,0.0,2,0,1
+52,male,minor,120,325,fbs < 120mg/dl,1,172,no angina,0.2,2,0,1
+44,male,major,140,235,fbs < 120mg/dl,0,180,no angina,0.0,2,0,1
+47,male,major,138,257,fbs < 120mg/dl,0,156,no angina,0.0,2,0,1
+53,female,major,128,216,fbs < 120mg/dl,0,115,no angina,0.0,2,0,1
+53,female,none,138,234,fbs < 120mg/dl,0,160,no angina,0.0,2,0,1
+51,female,major,130,256,fbs < 120mg/dl,0,149,no angina,0.5,2,0,1
+66,male,none,120,302,fbs < 120mg/dl,0,151,no angina,0.4,1,0,1
+62,male,major,130,231,fbs < 120mg/dl,1,146,no angina,1.8,1,3,1
+44,female,major,108,141,fbs < 120mg/dl,1,175,no angina,0.6,1,0,1
+63,female,major,135,252,fbs < 120mg/dl,0,172,no angina,0.0,2,0,1
+52,male,minor,134,201,fbs < 120mg/dl,1,158,no angina,0.8,2,1,1
+48,male,none,122,222,fbs < 120mg/dl,0,186,no angina,0.0,2,0,1
+45,male,none,115,260,fbs < 120mg/dl,0,185,no angina,0.0,2,0,1
+34,male,severe,118,182,fbs < 120mg/dl,0,174,no angina,0.0,2,0,1
+57,female,none,128,303,fbs < 120mg/dl,0,159,no angina,0.0,2,1,1
+71,female,major,110,265,fbs > 120mg/dl,0,130,no angina,0.0,2,1,1
+54,male,minor,108,309,fbs < 120mg/dl,1,156,no angina,0.0,2,0,1
+52,male,severe,118,186,fbs < 120mg/dl,0,190,no angina,0.0,1,0,1
+41,male,minor,135,203,fbs < 120mg/dl,1,132,no angina,0.0,1,0,1
+58,male,major,140,211,fbs > 120mg/dl,0,165,no angina,0.0,2,0,1
+35,female,none,138,183,fbs < 120mg/dl,1,182,no angina,1.4,2,0,1
+51,male,major,100,222,fbs < 120mg/dl,1,143,angina,1.2,1,0,1
+45,female,minor,130,234,fbs < 120mg/dl,0,175,no angina,0.6,1,0,1
+44,male,minor,120,220,fbs < 120mg/dl,1,170,no angina,0.0,2,0,1
+62,female,none,124,209,fbs < 120mg/dl,1,163,no angina,0.0,2,0,1
+54,male,major,120,258,fbs < 120mg/dl,0,147,no angina,0.4,1,0,1
+51,male,major,94,227,fbs < 120mg/dl,1,154,angina,0.0,2,1,1
+29,male,minor,130,204,fbs < 120mg/dl,0,202,no angina,0.0,2,0,1
+51,male,none,140,261,fbs < 120mg/dl,0,186,angina,0.0,2,0,1
+43,female,major,122,213,fbs < 120mg/dl,1,165,no angina,0.2,1,0,1
+55,female,minor,135,250,fbs < 120mg/dl,0,161,no angina,1.4,1,0,1
+51,male,major,125,245,fbs > 120mg/dl,0,166,no angina,2.4,1,0,1
+59,male,minor,140,221,fbs < 120mg/dl,1,164,angina,0.0,2,0,1
+52,male,minor,128,205,fbs > 120mg/dl,1,184,no angina,0.0,2,0,1
+58,male,major,105,240,fbs < 120mg/dl,0,154,angina,0.6,1,0,1
+41,male,major,112,250,fbs < 120mg/dl,1,179,no angina,0.0,2,0,1
+45,male,minor,128,308,fbs < 120mg/dl,0,170,no angina,0.0,2,0,1
+60,female,major,102,318,fbs < 120mg/dl,1,160,no angina,0.0,2,1,1
+52,male,severe,152,298,fbs > 120mg/dl,1,178,no angina,1.2,1,0,1
+42,female,none,102,265,fbs < 120mg/dl,0,122,no angina,0.6,1,0,1
+67,female,major,115,564,fbs < 120mg/dl,0,160,no angina,1.6,1,0,1
+68,male,major,118,277,fbs < 120mg/dl,1,151,no angina,1.0,2,1,1
+46,male,minor,101,197,fbs > 120mg/dl,1,156,no angina,0.0,2,0,1
+54,female,major,110,214,fbs < 120mg/dl,1,158,no angina,1.6,1,0,1
+58,female,none,100,248,fbs < 120mg/dl,0,122,no angina,1.0,1,0,1
+48,male,major,124,255,fbs > 120mg/dl,1,175,no angina,0.0,2,2,1
+57,male,none,132,207,fbs < 120mg/dl,1,168,angina,0.0,2,0,1
+52,male,major,138,223,fbs < 120mg/dl,1,169,no angina,0.0,2,4,1
+54,female,minor,132,288,fbs > 120mg/dl,0,159,angina,0.0,2,1,1
+45,female,minor,112,160,fbs < 120mg/dl,1,138,no angina,0.0,1,0,1
+53,male,none,142,226,fbs < 120mg/dl,0,111,angina,0.0,2,0,1
+62,female,none,140,394,fbs < 120mg/dl,0,157,no angina,1.2,1,0,1
+52,male,none,108,233,fbs > 120mg/dl,1,147,no angina,0.1,2,3,1
+43,male,major,130,315,fbs < 120mg/dl,1,162,no angina,1.9,2,1,1
+53,male,major,130,246,fbs > 120mg/dl,0,173,no angina,0.0,2,3,1
+42,male,severe,148,244,fbs < 120mg/dl,0,178,no angina,0.8,2,2,1
+59,male,severe,178,270,fbs < 120mg/dl,0,145,no angina,4.2,0,0,1
+63,female,minor,140,195,fbs < 120mg/dl,1,179,no angina,0.0,2,2,1
+42,male,major,120,240,fbs > 120mg/dl,1,194,no angina,0.8,0,0,1
+50,male,major,129,196,fbs < 120mg/dl,1,163,no angina,0.0,2,0,1
+68,female,major,120,211,fbs < 120mg/dl,0,115,no angina,1.5,1,0,1
+69,male,severe,160,234,fbs > 120mg/dl,0,131,no angina,0.1,1,1,1
+45,female,none,138,236,fbs < 120mg/dl,0,152,angina,0.2,1,0,1
+50,female,minor,120,244,fbs < 120mg/dl,1,162,no angina,1.1,2,0,1
+50,female,none,110,254,fbs < 120mg/dl,0,159,no angina,0.0,2,0,1
+64,female,none,180,325,fbs < 120mg/dl,1,154,angina,0.0,2,0,1
+57,male,major,150,126,fbs > 120mg/dl,1,173,no angina,0.2,2,1,1
+64,female,major,140,313,fbs < 120mg/dl,1,133,no angina,0.2,2,0,1
+43,male,none,110,211,fbs < 120mg/dl,1,161,no angina,0.0,2,0,1
+55,male,minor,130,262,fbs < 120mg/dl,1,155,no angina,0.0,2,0,1
+37,female,major,120,215,fbs < 120mg/dl,1,170,no angina,0.0,2,0,1
+41,male,major,130,214,fbs < 120mg/dl,0,168,no angina,2.0,1,0,1
+56,male,severe,120,193,fbs < 120mg/dl,0,162,no angina,1.9,1,0,1
+46,female,minor,105,204,fbs < 120mg/dl,1,172,no angina,0.0,2,0,1
+46,female,none,138,243,fbs < 120mg/dl,0,152,angina,0.0,1,0,1
+64,female,none,130,303,fbs < 120mg/dl,1,122,no angina,2.0,1,2,1
+59,male,none,138,271,fbs < 120mg/dl,0,182,no angina,0.0,2,0,1
+41,female,major,112,268,fbs < 120mg/dl,0,172,angina,0.0,2,0,1
+54,female,major,108,267,fbs < 120mg/dl,0,167,no angina,0.0,2,0,1
+39,female,major,94,199,fbs < 120mg/dl,1,179,no angina,0.0,2,0,1
+34,female,minor,118,210,fbs < 120mg/dl,1,192,no angina,0.7,2,0,1
+47,male,none,112,204,fbs < 120mg/dl,1,143,no angina,0.1,2,0,1
+67,female,major,152,277,fbs < 120mg/dl,1,172,no angina,0.0,2,1,1
+52,female,major,136,196,fbs < 120mg/dl,0,169,no angina,0.1,1,0,1
+74,female,minor,120,269,fbs < 120mg/dl,0,121,angina,0.2,2,1,1
+54,female,major,160,201,fbs < 120mg/dl,1,163,no angina,0.0,2,1,1
+49,female,minor,134,271,fbs < 120mg/dl,1,162,no angina,0.0,1,0,1
+42,male,minor,120,295,fbs < 120mg/dl,1,162,no angina,0.0,2,0,1
+41,male,minor,110,235,fbs < 120mg/dl,1,153,no angina,0.0,2,0,1
+41,female,minor,126,306,fbs < 120mg/dl,1,163,no angina,0.0,2,0,1
+49,female,none,130,269,fbs < 120mg/dl,1,163,no angina,0.0,2,0,1
+60,female,major,120,178,fbs > 120mg/dl,1,96,no angina,0.0,2,0,1
+62,male,minor,128,208,fbs > 120mg/dl,0,140,no angina,0.0,2,0,1
+57,male,none,110,201,fbs < 120mg/dl,1,126,angina,1.5,1,0,1
+64,male,none,128,263,fbs < 120mg/dl,1,105,angina,0.2,1,1,1
+51,female,major,120,295,fbs < 120mg/dl,0,157,no angina,0.6,2,0,1
+43,male,none,115,303,fbs < 120mg/dl,1,181,no angina,1.2,1,0,1
+42,female,major,120,209,fbs < 120mg/dl,1,173,no angina,0.0,1,0,1
+67,female,none,106,223,fbs < 120mg/dl,1,142,no angina,0.3,2,2,1
+76,female,major,140,197,fbs < 120mg/dl,2,116,no angina,1.1,1,0,1
+70,male,minor,156,245,fbs < 120mg/dl,0,143,no angina,0.0,2,0,1
+44,female,major,118,242,fbs < 120mg/dl,1,149,no angina,0.3,1,1,1
+60,female,severe,150,240,fbs < 120mg/dl,1,171,no angina,0.9,2,0,1
+44,male,major,120,226,fbs < 120mg/dl,1,169,no angina,0.0,2,0,1
+42,male,major,130,180,fbs < 120mg/dl,1,150,no angina,0.0,2,0,1
+66,male,none,160,228,fbs < 120mg/dl,0,138,no angina,2.3,2,0,1
+71,female,none,112,149,fbs < 120mg/dl,1,125,no angina,1.6,1,0,1
+64,male,severe,170,227,fbs < 120mg/dl,0,155,no angina,0.6,1,0,1
+66,female,major,146,278,fbs < 120mg/dl,0,152,no angina,0.0,1,1,1
+39,female,major,138,220,fbs < 120mg/dl,1,152,no angina,0.0,1,0,1
+58,female,none,130,197,fbs < 120mg/dl,1,131,no angina,0.6,1,0,1
+47,male,major,130,253,fbs < 120mg/dl,1,179,no angina,0.0,2,0,1
+35,male,minor,122,192,fbs < 120mg/dl,1,174,no angina,0.0,2,0,1
+58,male,minor,125,220,fbs < 120mg/dl,1,144,no angina,0.4,1,4,1
+56,male,minor,130,221,fbs < 120mg/dl,0,163,no angina,0.0,2,0,1
+56,male,minor,120,240,fbs < 120mg/dl,1,169,no angina,0.0,0,0,1
+55,female,minor,132,342,fbs < 120mg/dl,1,166,no angina,1.2,2,0,1
+41,male,minor,120,157,fbs < 120mg/dl,1,182,no angina,0.0,2,0,1
+38,male,major,138,175,fbs < 120mg/dl,1,173,no angina,0.0,2,4,1
+38,male,major,138,175,fbs < 120mg/dl,1,173,no angina,0.0,2,4,1
+67,male,none,160,286,fbs < 120mg/dl,0,108,angina,1.5,1,3,0
+67,male,none,120,229,fbs < 120mg/dl,0,129,angina,2.6,1,2,0
+62,female,none,140,268,fbs < 120mg/dl,0,160,no angina,3.6,0,2,0
+63,male,none,130,254,fbs < 120mg/dl,0,147,no angina,1.4,1,1,0
+53,male,none,140,203,fbs > 120mg/dl,0,155,angina,3.1,0,0,0
+56,male,major,130,256,fbs > 120mg/dl,0,142,angina,0.6,1,1,0
+48,male,minor,110,229,fbs < 120mg/dl,1,168,no angina,1.0,0,0,0
+58,male,minor,120,284,fbs < 120mg/dl,0,160,no angina,1.8,1,0,0
+58,male,major,132,224,fbs < 120mg/dl,0,173,no angina,3.2,2,2,0
+60,male,none,130,206,fbs < 120mg/dl,0,132,angina,2.4,1,2,0
+40,male,none,110,167,fbs < 120mg/dl,0,114,angina,2.0,1,0,0
+60,male,none,117,230,fbs > 120mg/dl,1,160,angina,1.4,2,2,0
+64,male,major,140,335,fbs < 120mg/dl,1,158,no angina,0.0,2,0,0
+43,male,none,120,177,fbs < 120mg/dl,0,120,angina,2.5,1,0,0
+57,male,none,150,276,fbs < 120mg/dl,0,112,angina,0.6,1,1,0
+55,male,none,132,353,fbs < 120mg/dl,1,132,angina,1.2,1,1,0
+65,female,none,150,225,fbs < 120mg/dl,0,114,no angina,1.0,1,3,0
+61,female,none,130,330,fbs < 120mg/dl,0,169,no angina,0.0,2,0,0
+58,male,major,112,230,fbs < 120mg/dl,0,165,no angina,2.5,1,1,0
+50,male,none,150,243,fbs < 120mg/dl,0,128,no angina,2.6,1,0,0
+44,male,none,112,290,fbs < 120mg/dl,0,153,no angina,0.0,2,1,0
+60,male,none,130,253,fbs < 120mg/dl,1,144,angina,1.4,2,1,0
+54,male,none,124,266,fbs < 120mg/dl,0,109,angina,2.2,1,1,0
+50,male,major,140,233,fbs < 120mg/dl,1,163,no angina,0.6,1,1,0
+41,male,none,110,172,fbs < 120mg/dl,0,158,no angina,0.0,2,0,0
+51,female,none,130,305,fbs < 120mg/dl,1,142,angina,1.2,1,0,0
+58,male,none,128,216,fbs < 120mg/dl,0,131,angina,2.2,1,3,0
+54,male,none,120,188,fbs < 120mg/dl,1,113,no angina,1.4,1,1,0
+60,male,none,145,282,fbs < 120mg/dl,0,142,angina,2.8,1,2,0
+60,male,major,140,185,fbs < 120mg/dl,0,155,no angina,3.0,1,0,0
+59,male,none,170,326,fbs < 120mg/dl,0,140,angina,3.4,0,0,0
+46,male,major,150,231,fbs < 120mg/dl,1,147,no angina,3.6,1,0,0
+67,male,none,125,254,fbs > 120mg/dl,1,163,no angina,0.2,1,2,0
+62,male,none,120,267,fbs < 120mg/dl,1,99,angina,1.8,1,2,0
+65,male,none,110,248,fbs < 120mg/dl,0,158,no angina,0.6,2,2,0
+44,male,none,110,197,fbs < 120mg/dl,0,177,no angina,0.0,2,1,0
+60,male,none,125,258,fbs < 120mg/dl,0,141,angina,2.8,1,1,0
+58,male,none,150,270,fbs < 120mg/dl,0,111,angina,0.8,2,0,0
+68,male,major,180,274,fbs > 120mg/dl,0,150,angina,1.6,1,0,0
+62,female,none,160,164,fbs < 120mg/dl,0,145,no angina,6.2,0,3,0
+52,male,none,128,255,fbs < 120mg/dl,1,161,angina,0.0,2,1,0
+59,male,none,110,239,fbs < 120mg/dl,0,142,angina,1.2,1,1,0
+60,female,none,150,258,fbs < 120mg/dl,0,157,no angina,2.6,1,2,0
+49,male,major,120,188,fbs < 120mg/dl,1,139,no angina,2.0,1,3,0
+59,male,none,140,177,fbs < 120mg/dl,1,162,angina,0.0,2,1,0
+57,male,major,128,229,fbs < 120mg/dl,0,150,no angina,0.4,1,1,0
+61,male,none,120,260,fbs < 120mg/dl,1,140,angina,3.6,1,1,0
+39,male,none,118,219,fbs < 120mg/dl,1,140,no angina,1.2,1,0,0
+61,female,none,145,307,fbs < 120mg/dl,0,146,angina,1.0,1,0,0
+56,male,none,125,249,fbs > 120mg/dl,0,144,angina,1.2,1,1,0
+43,female,none,132,341,fbs > 120mg/dl,0,136,angina,3.0,1,0,0
+62,female,major,130,263,fbs < 120mg/dl,1,97,no angina,1.2,1,1,0
+63,male,none,130,330,fbs > 120mg/dl,0,132,angina,1.8,2,3,0
+65,male,none,135,254,fbs < 120mg/dl,0,127,no angina,2.8,1,1,0
+48,male,none,130,256,fbs > 120mg/dl,0,150,angina,0.0,2,2,0
+63,female,none,150,407,fbs < 120mg/dl,0,154,no angina,4.0,1,3,0
+55,male,none,140,217,fbs < 120mg/dl,1,111,angina,5.6,0,0,0
+65,male,severe,138,282,fbs > 120mg/dl,0,174,no angina,1.4,1,1,0
+56,female,none,200,288,fbs > 120mg/dl,0,133,angina,4.0,0,2,0
+54,male,none,110,239,fbs < 120mg/dl,1,126,angina,2.8,1,1,0
+70,male,none,145,174,fbs < 120mg/dl,1,125,angina,2.6,0,0,0
+62,male,minor,120,281,fbs < 120mg/dl,0,103,no angina,1.4,1,1,0
+35,male,none,120,198,fbs < 120mg/dl,1,130,angina,1.6,1,0,0
+59,male,severe,170,288,fbs < 120mg/dl,0,159,no angina,0.2,1,0,0
+64,male,major,125,309,fbs < 120mg/dl,1,131,angina,1.8,1,0,0
+47,male,major,108,243,fbs < 120mg/dl,1,152,no angina,0.0,2,0,0
+57,male,none,165,289,fbs > 120mg/dl,0,124,no angina,1.0,1,3,0
+55,male,none,160,289,fbs < 120mg/dl,0,145,angina,0.8,1,1,0
+64,male,none,120,246,fbs < 120mg/dl,0,96,angina,2.2,0,1,0
+70,male,none,130,322,fbs < 120mg/dl,0,109,no angina,2.4,1,3,0
+51,male,none,140,299,fbs < 120mg/dl,1,173,angina,1.6,2,0,0
+58,male,none,125,300,fbs < 120mg/dl,0,171,no angina,0.0,2,2,0
+60,male,none,140,293,fbs < 120mg/dl,0,170,no angina,1.2,1,2,0
+77,male,none,125,304,fbs < 120mg/dl,0,162,angina,0.0,2,3,0
+35,male,none,126,282,fbs < 120mg/dl,0,156,angina,0.0,2,0,0
+70,male,major,160,269,fbs < 120mg/dl,1,112,angina,2.9,1,1,0
+59,female,none,174,249,fbs < 120mg/dl,1,143,angina,0.0,1,0,0
+64,male,none,145,212,fbs < 120mg/dl,0,132,no angina,2.0,1,2,0
+57,male,none,152,274,fbs < 120mg/dl,1,88,angina,1.2,1,1,0
+56,male,none,132,184,fbs < 120mg/dl,0,105,angina,2.1,1,1,0
+48,male,none,124,274,fbs < 120mg/dl,0,166,no angina,0.5,1,0,0
+56,female,none,134,409,fbs < 120mg/dl,0,150,angina,1.9,1,2,0
+66,male,minor,160,246,fbs < 120mg/dl,1,120,angina,0.0,1,3,0
+54,male,minor,192,283,fbs < 120mg/dl,0,195,no angina,0.0,2,1,0
+69,male,major,140,254,fbs < 120mg/dl,0,146,no angina,2.0,1,3,0
+51,male,none,140,298,fbs < 120mg/dl,1,122,angina,4.2,1,3,0
+43,male,none,132,247,fbs > 120mg/dl,0,143,angina,0.1,1,4,0
+62,female,none,138,294,fbs > 120mg/dl,1,106,no angina,1.9,1,3,0
+67,male,none,100,299,fbs < 120mg/dl,0,125,angina,0.9,1,2,0
+59,male,severe,160,273,fbs < 120mg/dl,0,125,no angina,0.0,2,0,0
+45,male,none,142,309,fbs < 120mg/dl,0,147,angina,0.0,1,3,0
+58,male,none,128,259,fbs < 120mg/dl,0,130,angina,3.0,1,2,0
+50,male,none,144,200,fbs < 120mg/dl,0,126,angina,0.9,1,0,0
+62,female,none,150,244,fbs < 120mg/dl,1,154,angina,1.4,1,0,0
+38,male,severe,120,231,fbs < 120mg/dl,1,182,angina,3.8,1,0,0
+66,female,none,178,228,fbs > 120mg/dl,1,165,angina,1.0,1,2,0
+52,male,none,112,230,fbs < 120mg/dl,1,160,no angina,0.0,2,1,0
+53,male,none,123,282,fbs < 120mg/dl,1,95,angina,2.0,1,2,0
+63,female,none,108,269,fbs < 120mg/dl,1,169,angina,1.8,1,2,0
+54,male,none,110,206,fbs < 120mg/dl,0,108,angina,0.0,1,1,0
+66,male,none,112,212,fbs < 120mg/dl,0,132,angina,0.1,2,1,0
+55,female,none,180,327,fbs < 120mg/dl,2,117,angina,3.4,1,0,0
+49,male,major,118,149,fbs < 120mg/dl,0,126,no angina,0.8,2,3,0
+54,male,none,122,286,fbs < 120mg/dl,0,116,angina,3.2,1,2,0
+56,male,none,130,283,fbs > 120mg/dl,0,103,angina,1.6,0,0,0
+46,male,none,120,249,fbs < 120mg/dl,0,144,no angina,0.8,2,0,0
+61,male,severe,134,234,fbs < 120mg/dl,1,145,no angina,2.6,1,2,0
+67,male,none,120,237,fbs < 120mg/dl,1,71,no angina,1.0,1,0,0
+58,male,none,100,234,fbs < 120mg/dl,1,156,no angina,0.1,2,1,0
+47,male,none,110,275,fbs < 120mg/dl,0,118,angina,1.0,1,1,0
+52,male,none,125,212,fbs < 120mg/dl,1,168,no angina,1.0,2,2,0
+58,male,none,146,218,fbs < 120mg/dl,1,105,no angina,2.0,1,1,0
+57,male,minor,124,261,fbs < 120mg/dl,1,141,no angina,0.3,2,0,0
+58,female,minor,136,319,fbs > 120mg/dl,0,152,no angina,0.0,2,2,0
+61,male,none,138,166,fbs < 120mg/dl,0,125,angina,3.6,1,1,0
+42,male,none,136,315,fbs < 120mg/dl,1,125,angina,1.8,1,0,0
+52,male,none,128,204,fbs > 120mg/dl,1,156,angina,1.0,1,0,0
+59,male,major,126,218,fbs > 120mg/dl,1,134,no angina,2.2,1,1,0
+40,male,none,152,223,fbs < 120mg/dl,1,181,no angina,0.0,2,0,0
+61,male,none,140,207,fbs < 120mg/dl,0,138,angina,1.9,2,1,0
+46,male,none,140,311,fbs < 120mg/dl,1,120,angina,1.8,1,2,0
+59,male,severe,134,204,fbs < 120mg/dl,1,162,no angina,0.8,2,2,0
+57,male,minor,154,232,fbs < 120mg/dl,0,164,no angina,0.0,2,1,0
+57,male,none,110,335,fbs < 120mg/dl,1,143,angina,3.0,1,1,0
+55,female,none,128,205,fbs < 120mg/dl,2,130,angina,2.0,1,1,0
+61,male,none,148,203,fbs < 120mg/dl,1,161,no angina,0.0,2,1,0
+58,male,none,114,318,fbs < 120mg/dl,2,140,no angina,4.4,0,3,0
+58,female,none,170,225,fbs > 120mg/dl,0,146,angina,2.8,1,2,0
+67,male,major,152,212,fbs < 120mg/dl,0,150,no angina,0.8,1,0,0
+44,male,none,120,169,fbs < 120mg/dl,1,144,angina,2.8,0,0,0
+63,male,none,140,187,fbs < 120mg/dl,0,144,angina,4.0,2,2,0
+63,female,none,124,197,fbs < 120mg/dl,1,136,angina,0.0,1,0,0
+59,male,none,164,176,fbs > 120mg/dl,0,90,no angina,1.0,1,2,0
+57,female,none,140,241,fbs < 120mg/dl,1,123,angina,0.2,1,0,0
+45,male,severe,110,264,fbs < 120mg/dl,1,132,no angina,1.2,1,0,0
+68,male,none,144,193,fbs > 120mg/dl,1,141,no angina,3.4,1,2,0
+57,male,none,130,131,fbs < 120mg/dl,1,115,angina,1.2,1,1,0
+57,female,minor,130,236,fbs < 120mg/dl,0,174,no angina,0.0,1,1,0
